@@ -1,0 +1,65 @@
+<!-- This component is the page that a user will view a snippet on -->
+<div class="container-fluid" *ngIf="snippet" >
+    <div class="row"  *ngIf="this.showsnip">
+        <!-- Snippet pane -->
+        <div class="col-xl-7">
+            <app-snippet-panel [snippet]=snippet></app-snippet-panel> 
+            <button mat-raised-button 
+                class="right-align"
+                color=primary
+                (click)="save()">Save</button>           
+        </div>
+        <!-- Comments pane -->
+        <div class="col-xl-5 border-left"
+            (click)="outerClick($event)">
+            <!-- Actual comment 'box' -->
+            <div class="row">
+                <div class="col-lg-10">
+                    <h3>Comments:</h3>
+                </div>
+                <div class="col-lg-2">
+                    <button mat-icon-button (click)="addComment()">
+                        <mat-icon>add</mat-icon>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <!-- dynamically generated set of comments -->
+                <div name="commentTable" class="col-xl" style="max-height: 700px;">
+                    <ng-scrollbar>
+                        <div *ngIf="(snippet.comments === undefined || snippet.comments.length == 0)">
+                            <app-no-comments-panel></app-no-comments-panel>
+                        </div>
+                        <div *ngFor="let comment of snippet.comments">
+                            <app-comment-panel 
+                            [comment]=comment 
+                            [snippetId]=snippet.id 
+                            (click)="selectComment(comment, $event)" 
+                            (commentDeleted)="refreshComments()">
+                        </app-comment-panel>
+                        </div> 
+                    </ng-scrollbar>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Delete Snippet region -->
+    <div class="row">
+        <div class="col-xl">
+            <div class="page-bottom">
+                <div *ngIf="isCreator"> 
+                    <button mat-button (click)="delete()">Delete Snippet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" *ngIf="!snippet">
+    <div class="row">
+        <!-- Snippet pane -->
+        <div class="col-xl-7" style="max-height: 700px;">
+            <h3>No Snippet Found</h3>
+        </div>
+    </div>
+</div>

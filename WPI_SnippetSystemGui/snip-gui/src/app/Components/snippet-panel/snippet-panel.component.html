@@ -1,0 +1,37 @@
+<div>
+  <!-- Snippet Info -->
+  <div class="row">
+    <div class="col-xl">
+      <mat-expansion-panel [expanded]=true>
+          <mat-expansion-panel-header >
+            <mat-panel-title>
+              Snippet Details
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <app-snippet-info [snippet]="snippet"  (languageChanged)="onLanguageChanged($event)"></app-snippet-info>
+          <div *ngIf="!snippet.isCreating">
+            <button mat-button (click)="openDialog();" color="primary">Share</button>
+          </div>
+      </mat-expansion-panel>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xl">
+    <!-- editor-->
+      <ngx-codemirror
+      [(ngModel)]="snippet.content"
+      [options]="codeStyleOptions"
+      placeholder="Hello world!"
+      ></ngx-codemirror>
+    </div>
+  </div>
+  <div class="row footer" *ngIf="snippet.isCreating" >
+    <div class="col-lg-6">
+      <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input matInput [(ngModel)]="snippet.password">
+        <mat-hint>(optional)</mat-hint>
+      </mat-form-field>
+    </div>
+  </div>
+</div>

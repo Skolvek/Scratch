@@ -1,0 +1,13 @@
+.page-bottom{
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.right-align{
+    float: right;
+}
+
+mat-list {
+    width: 100%;
+}

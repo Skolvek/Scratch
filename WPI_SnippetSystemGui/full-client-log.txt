@@ -1,0 +1,806 @@
+commit 0ccd958a23f65a79da92930e3444012da18fdf0d
+Merge: 8e0a993 84b9dd1
+Author: Skolvek <stephen.kolvek@gmail.com>
+Date:   Thu Dec 10 18:08:13 2020 -0500
+
+    Merge pull request #22 from CS509-Euterpe/password_and_more
+    
+    Password and more
+
+commit 84b9dd18a5084bd813b74bb2b02ff86a2f7e7ae9
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Tue Dec 8 20:34:52 2020 -0500
+
+    password complete. added to admin wall
+
+commit caa5a41fc1fb67367ade99ff10901e6ca25ac24a
+Merge: 1a01321 8e0a993
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Tue Dec 8 19:33:12 2020 -0500
+
+    merged in master
+
+commit 1a013215d23608b9a5cbe90bdac38fc2c29ca06f
+Merge: fe02c44 c8caea9
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Tue Dec 8 19:31:25 2020 -0500
+
+    wip.. merging master
+
+commit 8e0a993ecbf96164b2832ba11ba0e42840a49c26
+Merge: c8caea9 1ce72c6
+Author: Skolvek <stephen.kolvek@gmail.com>
+Date:   Tue Dec 8 19:31:00 2020 -0500
+
+    Merge pull request #21 from CS509-Euterpe/admin_page
+    
+    Admin page
+
+commit 1ce72c68d8289b4e8b747d9a08f9baeb8ef4d5da
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Dec 6 21:03:10 2020 -0500
+
+    Improving admin page styling on different window scaling
+
+commit 10c91c40278042e07c73dd15c856586066b08785
+Merge: 0be2119 c8caea9
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Dec 6 20:23:11 2020 -0500
+
+    merged in master
+
+commit 0be2119950e71c6624e0c9ac4a253df4a3f6fb27
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Dec 6 20:21:00 2020 -0500
+
+    admin page complete
+
+commit c8caea9da0ab9311dda474b30b3522cc91ac0263
+Merge: b12267a b9a1913
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Dec 6 14:55:58 2020 -0500
+
+    Merge pull request #20 from CS509-Euterpe/websocket
+    
+    Clearing snippet on failed retrieval
+
+commit b9a191389a94f3e609927f88d43b397a38275cc8
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Dec 6 14:55:01 2020 -0500
+
+    Clearing snippet on failed retrieval
+
+commit fe02c44bd28baa1bdf78ba282e78af696ceb738b
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Dec 6 14:06:13 2020 -0500
+
+    wip
+
+commit b12267a8e07cb4cc3d0b68e9f32ada8641cb3104
+Merge: 11ff587 af260d3
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 29 15:55:07 2020 -0500
+
+    Merge pull request #19 from CS509-Euterpe/websocket
+    
+    Websocket
+
+commit af260d3295ef214dbb2e66821b9a223a4aaa82e5
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 29 15:54:23 2020 -0500
+
+    Clearing highlighting on click in comment area
+
+commit 2483b15343e0a92dcb6937b7c3d4bfac7575049f
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 29 14:38:04 2020 -0500
+
+    wip - server issue fixed, plumming in the rest
+
+commit 56ef36a290c8b6edee481d7d872c6aa2aad37a3d
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 29 10:43:24 2020 -0500
+
+    Clear highlighting on comment refresh
+
+commit 99d2d22db81b953dea97c38bc798c7bda379988f
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sat Nov 28 19:18:19 2020 -0500
+
+    Password functionality completed, awaiting fix to server issue
+
+commit 8df78bb06b0445ade6c3ddf72243efc1854cba98
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Fri Nov 27 22:28:51 2020 -0500
+
+    wip -- issues with return from server
+
+commit 73950dc9f863a795f55f078af21b79c8d400ab28
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 23 22:30:05 2020 -0500
+
+    Highlighting comment card on selection
+
+commit 7584d004d8dcf3510c3dad415cbde1e87077dcb3
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 23 21:29:28 2020 -0500
+
+    Add reload on snippet change
+
+commit 1ad410ca31f11258d934ff5738213fde22550600
+Merge: b9ef870 11ff587
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Fri Nov 20 17:32:58 2020 -0500
+
+    Merging in master
+
+commit 11ff5871b3d9fd64dd3c13348531425c31e6153f
+Merge: 121276e cc5bada
+Author: Skolvek <stephen.kolvek@gmail.com>
+Date:   Mon Nov 16 22:32:41 2020 -0500
+
+    Merge pull request #18 from CS509-Euterpe/websocket
+
+commit cc5bada12852c46ef3dad37e68506e07db5c007f
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 16 22:19:17 2020 -0500
+
+    Cleaning up websocket connection process
+
+commit 121276e58e77a3f994de00608925ddaf01d96a97
+Merge: b5ef51e 6433e20
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 16 18:06:04 2020 -0500
+
+    Merge pull request #17 from CS509-Euterpe/websocket
+    
+    Websocket
+
+commit 6433e20b2423947db4dc702d1bb9eba8d94eb9da
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 16 18:05:24 2020 -0500
+
+    Working websockets!
+
+commit b5ef51e6cbfcb9f7b95d6c432d1ac39f67715dc5
+Merge: 2156f7b 36ed5b4
+Author: T-Reiser <44755928+T-Reiser@users.noreply.github.com>
+Date:   Mon Nov 16 17:18:51 2020 -0500
+
+    Merge pull request #15 from CS509-Euterpe/api_yaml_update
+    
+    yaml update
+
+commit 2156f7bae8186631f0b6086fae856bba2a179ebb
+Merge: 3bd19ee 0d52f51
+Author: T-Reiser <44755928+T-Reiser@users.noreply.github.com>
+Date:   Mon Nov 16 17:18:40 2020 -0500
+
+    Merge pull request #16 from CS509-Euterpe/add_comments
+    
+    Add comments
+
+commit eca5d488ab8e56c38ebae5ec5e65f54553fe74f0
+Merge: cc5f7ee 0d52f51
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 16 14:54:04 2020 -0500
+
+    Merge remote-tracking branch 'origin/add_comments' into websocket
+    
+    # Conflicts:
+    #       snip-gui/src/app/Services/api-requests.service.ts
+    #       snip-gui/src/app/app.module.ts
+
+commit 0d52f514e84aaa70548f0be3d06201a287740e5b
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 15 22:51:46 2020 -0500
+
+    add, delete, get, & highlight comments has been implemented
+
+commit cc5f7ee46343befacc9a8adf6bc4c6583e405cbf
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 15 19:41:31 2020 -0500
+
+    Adding notification on comment message
+
+commit c8a199d7f4f6e1718bee5d3843b44140aba2f6a9
+Merge: 01cd3a1 3bd19ee
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 15 18:54:21 2020 -0500
+
+    Merge remote-tracking branch 'origin/master' into websocket
+
+commit 01cd3a1b5e8a180ef0b9d4697ff34749bbe61e7a
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 15 18:53:47 2020 -0500
+
+    Adding basic websocket service
+
+commit 36ed5b4a91f465bbcdf410aaa16ee588302336cc
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 15 13:00:37 2020 -0500
+
+    yaml update
+
+commit 2211ecbe30f608d4b8518a348d194a7af472f08b
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 15 12:55:47 2020 -0500
+
+    wip - awaiting api updates
+
+commit 0914f058e5b20ac4f940eef2aa67b369d7537922
+Merge: b727bcd 3bd19ee
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Fri Nov 13 11:29:55 2020 -0500
+
+    Merging in master
+
+commit 3bd19eeb789fd68505f588bbdc04eef858bf7dd0
+Merge: ee11472 ccaad45
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Fri Nov 13 08:31:01 2020 -0500
+
+    Merge pull request #14 from CS509-Euterpe/user_type
+    
+    User type and Delete buttons
+
+commit ccaad45a6668723087e6a00f91c69663a04855b4
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Wed Nov 11 23:07:42 2020 -0500
+
+    Adding delete comment
+
+commit d7d1de8396899c7849120d40cd0c674943939a65
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Wed Nov 11 22:44:08 2020 -0500
+
+    Adding delete snippet function
+
+commit 0d5b3a3e92e7ab5ecf65256e70dce149e80fc0ed
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Wed Nov 11 22:43:29 2020 -0500
+
+    Improving navigation and enabling home page snippet info
+
+commit 51b745a41cd291f41a19880900508ca8f6a3a03f
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 8 21:31:35 2020 -0500
+
+    Moving isCreator to base class. Disabling info for users
+
+commit b96808569d5116a4b0e7324addfe49647f401195
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 8 20:55:50 2020 -0500
+
+    Adding user query param and hiding delete
+
+commit ee11472e4a3967365ab1746c9b4c34faa6d5f95d
+Merge: 575daae dbd430d
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 8 20:42:04 2020 -0500
+
+    Merge pull request #13 from CS509-Euterpe/editor_highlighting
+    
+    Editor highlighting
+
+commit dbd430d644697e313ac28a73b3a92d06232fa54b
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 8 17:29:13 2020 -0500
+
+    Removing selection logging
+
+commit 39b95f91475d25025dcb68b4fcd1b70c6aadf821
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 8 17:28:09 2020 -0500
+
+    Adding clear highlighting
+
+commit 83fa4045b93237f6476ab8133f9e0681343520ba
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 8 17:20:16 2020 -0500
+
+    Adding highlighting to editor
+
+commit b727bcd47e7d9ab5b6142843e32b07eee0f8a3cf
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 8 14:15:16 2020 -0500
+
+    wip add comment
+
+commit b9ef870e7860a6de85b0d3384cb8e96b89e26042
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 8 13:38:39 2020 -0500
+
+    wip - updates to admin page
+
+commit bc2391e848d5b60215210731ee9024e5ce102cce
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sat Nov 7 12:27:41 2020 -0500
+
+    WIP -- add comment. stuck on server issue
+
+commit 575daaee9c38f2331e5af2bfd19f57d40eac705a
+Merge: 28d3c87 c8434de
+Author: Skolvek <stephen.kolvek@gmail.com>
+Date:   Tue Nov 3 15:54:59 2020 -0500
+
+    Merge pull request #12 from CS509-Euterpe/api_service
+    
+    Api service
+
+commit c8434def3689e3a328348911ea59f10041111dd4
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Tue Nov 3 15:50:48 2020 -0500
+
+    .
+
+commit b9fca4eb88f065c4e0abf3aaeee213146f31f770
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Tue Nov 3 15:49:44 2020 -0500
+
+    Fixed Language select defect
+
+commit 28d3c8745b2442618b9b86e561eae81eb85eae67
+Merge: b12e975 ae57457
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 2 19:58:09 2020 -0500
+
+    Merge pull request #11 from CS509-Euterpe/snackbar
+    
+    Snackbar
+
+commit ae57457037648628f8615ac7da30d3a7f138ac46
+Merge: 8981c65 b12e975
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 2 19:55:21 2020 -0500
+
+    Merge remote-tracking branch 'origin/master' into snackbar
+    
+    # Conflicts:
+    #       snip-gui/src/app/Components/snippet-view/snippet-view.component.html
+
+commit 8981c653d600da9605f01b8520edf19e3aba4dc6
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 2 19:54:23 2020 -0500
+
+    Adding snackbar to api calls
+
+commit b12e975bac6d76d1b5a48442873fcc1ac30e10ca
+Merge: d7df66c 0fcf844
+Author: Skolvek <stephen.kolvek@gmail.com>
+Date:   Mon Nov 2 19:53:00 2020 -0500
+
+    Merge pull request #10 from CS509-Euterpe/api_service
+    
+    fixed go to snippet from snippet page
+
+commit 0fcf84426fe31e6d028d1f59fdef80faad7234b1
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Mon Nov 2 19:39:43 2020 -0500
+
+    fixed go to snippet from snippet page
+
+commit 6d8e025b2612b73b78073dce99d0dae57511ded5
+Merge: f206db2 d7df66c
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 2 19:15:02 2020 -0500
+
+    Merge remote-tracking branch 'origin/master' into snackbar
+    
+    # Conflicts:
+    #       snip-gui/src/app/Components/snippet-view/snippet-view.component.ts
+
+commit f206db29d683d5d2d76c5764aeabd8698b86f752
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 2 19:13:50 2020 -0500
+
+    Fixing merge issues
+
+commit f67b81858c299c61f09886d4600fb6d353c8f8b9
+Merge: 64acb0b 2ea546d
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 2 19:13:29 2020 -0500
+
+    Merge remote-tracking branch 'origin/api_service' into snackbar
+    
+    # Conflicts:
+    #       snip-gui/src/app/Components/snippet-view/snippet-view.component.ts
+    #       snip-gui/src/app/Services/api-requests.service.ts
+    #       snip-gui/src/app/models/models.ts
+
+commit d7df66c8c52c4a47181608d69d0eef6455650628
+Merge: 7c38509 05f89b4
+Author: Skolvek <stephen.kolvek@gmail.com>
+Date:   Mon Nov 2 19:13:00 2020 -0500
+
+    Merge pull request #9 from CS509-Euterpe/api_service
+    
+    Api service
+
+commit 05f89b48fb20b88292803891ab48ad5d6669da19
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Mon Nov 2 19:07:19 2020 -0500
+
+    can now update snipppet
+
+commit 64acb0b55e58831296fe70cffa93c9085ce470df
+Merge: 41698b4 7c38509
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 2 18:55:39 2020 -0500
+
+    Merge remote-tracking branch 'origin/master' into snackbar
+    
+    # Conflicts:
+    #       snip-gui/src/app/app.module.ts
+
+commit 7c38509099471f362dc865ff98fe0be8c710d780
+Merge: f44d89f 6726e5f
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Mon Nov 2 18:54:10 2020 -0500
+
+    Merge pull request #8 from CS509-Euterpe/share_snippet_function
+    
+    Share snippet function
+
+commit 2ea546db060c6ff3ecd9b69503113cc16e6c1528
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 1 23:15:51 2020 -0500
+
+    Snippet creation is done. wip - saving and updating snippet
+
+commit 41698b498cffd45a930f02b949e68c103fb57360
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 1 22:05:52 2020 -0500
+
+    Adding get snippet messages
+
+commit 7eff67d2bdf2bd0648db377905946b8c33fa50b0
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 1 21:44:52 2020 -0500
+
+    wip
+
+commit 3c8e6aa7723ab0dcf72a11d6a22f7029021ef188
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 1 20:45:51 2020 -0500
+
+    wip -- create snippet and redirect to new snippet
+
+commit f88a25bcc48d94b862570347ccac22852629cc45
+Merge: d9547dd 866bd87
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 1 20:31:32 2020 -0500
+
+    Merge remote-tracking branch 'origin/api_service' into snackbar
+
+commit 42d2ec7f7722fe9f0f35715e4471eeb63ce43e36
+Merge: 866bd87 f44d89f
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 1 15:42:07 2020 -0500
+
+    Merge branch 'master' into api_service
+
+commit 6726e5fb70f5f8219aacceb496610907a120a841
+Merge: fa4e0c1 f44d89f
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 1 15:39:34 2020 -0500
+
+    merging in master
+
+commit fa4e0c1d253ef9df5bff152a7232222752a59203
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 1 15:30:59 2020 -0500
+
+    Modal dialog added for sharing snippet url
+
+commit d9547dd33eb8675e995cc5549b4f2913ef0d227f
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 1 15:09:19 2020 -0500
+
+    Adding snackbar service
+
+commit f44d89fb77036dad6ce787a91acd1a190b7a214e
+Merge: c71d4ea 30e0b3a
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Nov 1 14:07:53 2020 -0500
+
+    Merge pull request #7 from CS509-Euterpe/language_select
+    
+    Language select works
+
+commit 866bd870cc06986d0b8319e326a3fb287d97e436
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Nov 1 13:09:24 2020 -0500
+
+    create snippet in database working via api request
+
+commit 30e0b3a9c9c56b08a9e6cbe44ec9d9ac6c84e5e3
+Merge: eec53c5 c71d4ea
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sat Oct 31 15:55:14 2020 -0400
+
+    Merge remote-tracking branch 'origin/master' into language_select
+    
+    # Conflicts:
+    #       snip-gui/src/app/Components/snippet-panel/snippet-panel.component.html
+
+commit c71d4ea4e65f10e840f092f1c7f272cd44fa6c9d
+Merge: bd029c8 1275c9e
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sat Oct 31 15:51:43 2020 -0400
+
+    Merge pull request #6 from CS509-Euterpe/gui_navbar
+    
+    Gui navbar
+
+commit 1275c9ea8970a7298bc6649550d9ff8ff46848c2
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sat Oct 31 15:46:55 2020 -0400
+
+    Adding icon buttons and snippet panel styling
+
+commit 20017d984902e627f685cd88d1b4bf5791dc3e47
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Fri Oct 30 14:10:43 2020 -0400
+
+    api methods defined
+
+commit 18b727e41cc53b03aa30a5a8ecb059fdd349397d
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Thu Oct 29 22:12:51 2020 -0400
+
+    Corrected issues with navbar
+
+commit 946d2e4b6bd2c24b1b659bdf9fd5566d3fffb557
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Thu Oct 29 21:53:46 2020 -0400
+
+    api service created
+
+commit 47d2749d69d1f7286b8d034d188319cf9928ce16
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Thu Oct 29 21:50:50 2020 -0400
+
+    service created
+
+commit 307a165a98ce3c8d0fa4627302d0f5afd4d9f6bb
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Thu Oct 29 21:21:41 2020 -0400
+
+    navbar complete
+
+commit eec53c55f7a2b867cc8f0bb0781988463a161246
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Thu Oct 29 21:11:34 2020 -0400
+
+    Changing code styling on language change
+
+commit d56f3c57758cdeebaa9a4b2a0989103328eb5aad
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Wed Oct 28 20:57:21 2020 -0400
+
+    added navbar component & basic styling
+
+commit bd029c860d7d76d4fe265a4ef8e81b77cf9bd2c5
+Merge: d1a7188 eae6f88
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Tue Oct 27 17:57:00 2020 -0400
+
+    Merge pull request #5 from CS509-Euterpe/angular_material
+    
+    Angular material
+
+commit eae6f88f744511b9f907fd6b0e7a7c8e5eaedbe7
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Tue Oct 27 17:51:52 2020 -0400
+
+    Adding save button
+
+commit d85c69ee6be21618d5b192378950b169362c3f25
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Oct 25 18:37:35 2020 -0400
+
+    Adding styling to home page, adding snippet routing
+
+commit b596bd1e04783813c20f08978c9810278a16ae00
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Oct 25 15:42:30 2020 -0400
+
+    Fixing merge issues
+
+commit 91c7d0523ea7352cb54bebe47aed0d4d262ebfa6
+Merge: 5db48ce d1a7188
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Oct 25 15:21:48 2020 -0400
+
+    Merge remote-tracking branch 'origin/master' into angular_material
+    
+    # Conflicts:
+    #       snip-gui/src/app/Components/admin-view/admin-view.component.html
+    #       snip-gui/src/app/Components/home-view/home-view.component.html
+    #       snip-gui/src/app/Components/home-view/home-view.component.ts
+    #       snip-gui/src/app/Components/snippet-view/snippet-view.component.html
+    #       snip-gui/src/app/models/models.ts
+
+commit d1a71886b1eb28f6fa0b09466345189a1fc8fcc5
+Merge: 48c781c f55401d
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Oct 25 15:09:31 2020 -0400
+
+    Merge pull request #4 from CS509-Euterpe/gui_snippet_creation
+    
+    Gui snippet creation
+
+commit 5db48ce34c57430195577fcf35534a22b85bb1c2
+Merge: 5dfec5e 48c781c
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Oct 25 15:08:45 2020 -0400
+
+    Merge remote-tracking branch 'origin/master' into angular_material
+
+commit 5dfec5e6493134562e97d8d866ee1ba8a5fe876d
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Oct 25 15:08:22 2020 -0400
+
+    Moving snippet view into panel
+
+commit 960b89906d6da0ec4adfc262abfbef7a9da4d835
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Oct 25 14:38:12 2020 -0400
+
+    Adding snippet and comment names
+
+commit a1cee3002e7e8f8e8a051e9dc9135d548f5b4c0c
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sat Oct 24 19:33:41 2020 -0400
+
+    Improving snippet view and comment list styling
+
+commit c75a96adafa56461ac61403682471d2be3cfc0d8
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sat Oct 24 19:33:00 2020 -0400
+
+    Adding comment formatting
+
+commit f55401dbddcd46d4370f25c846d913245582b586
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sat Oct 24 18:47:41 2020 -0400
+
+    snippet generation
+
+commit 6971ba2e9bd72d83a577f0e51a6454daad6ad48b
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sat Oct 24 17:44:44 2020 -0400
+
+    Adding snippet info styling and styled text editor
+
+commit 5704a6c0d915b58b9f03e33c8f91b394ef4fdb5a
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sat Oct 24 15:36:45 2020 -0400
+
+    Adding missing module import
+
+commit 0cb16eb219666cdf0f2a1113b8c673946168e667
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Wed Oct 21 21:09:44 2020 -0400
+
+    snippet object creation
+
+commit 48c781c0e1c24b0569bd19a08d159b6bebe3af41
+Merge: 0a37e2d 2320c2e
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Tue Oct 20 18:06:13 2020 -0400
+
+    Merge pull request #3 from CS509-Euterpe/api_description
+    
+    Moving user and password to request body
+
+commit c7e10f09aed5ffcde179c95c242d7f6386413015
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Oct 18 18:50:53 2020 -0400
+
+    Adding angular material library
+
+commit 2320c2e0194ca82fcda8c424ba8367aad6dd14cb
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sun Oct 18 14:03:00 2020 -0400
+
+    Moving user and password to request body
+
+commit 0a37e2d520b06e874769d60375a0877617d485ef
+Merge: 40800c6 8bc7251
+Author: T-Reiser <44755928+T-Reiser@users.noreply.github.com>
+Date:   Sun Oct 18 13:28:57 2020 -0400
+
+    Merge pull request #2 from CS509-Euterpe/gui_html_skeleton
+    
+    Gui html skeleton
+
+commit 8bc7251f1a96cc74e7286b986a54894f937fa1d2
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Sun Oct 18 12:30:21 2020 -0400
+
+    basic gui structure
+
+commit a815491f435b97ff9712e2cd89e6e80ff488191a
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Fri Oct 16 18:34:08 2020 -0400
+
+    adding basic html
+
+commit 40800c6e3eb28ca3dfd7c6a308454707d841fa43
+Author: Travis Norris <travisynorris@gmail.com>
+Date:   Sat Oct 10 14:30:53 2020 -0400
+
+    Adding ap/v1 description
+
+commit 4bcf97be4c72d34dfe4c38760b2d9e2438ed9036
+Merge: 28cfb0f 2e56457
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Mon Oct 5 21:25:27 2020 -0400
+
+    merged in aws stuff
+
+commit 28cfb0f86328a609fb4bb3c9b2294e08c59b2955
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Mon Oct 5 21:20:54 2020 -0400
+
+    wip -- added bootstrap dependency
+
+commit 2e564575a4a9aa69d148a500337852265b6c204a
+Author: Noble Kalish <NobleKalish>
+Date:   Sun Oct 4 15:21:56 2020 -0400
+
+    aws test fix
+
+commit b7540d780e872f42491ec21699ce00b3972ba66d
+Merge: 2c3b224 ec2b9ab
+Author: Noble Kalish <NobleKalish>
+Date:   Sun Oct 4 15:01:17 2020 -0400
+
+    README.md
+
+commit 2c3b224d3c91a749970986a1e4de885fc36463c0
+Author: Noble Kalish <NobleKalish>
+Date:   Sun Oct 4 15:00:40 2020 -0400
+
+    test fix
+
+commit ec2b9ab207e4ad9ea893ba8f6afca07478067298
+Author: Noble Kalish <noblekalish1220@gmail.com>
+Date:   Sun Oct 4 14:35:02 2020 -0400
+
+    Update README.md
+
+commit 981f68c1585c704febe10f1e0aa1e4466c9c2644
+Merge: e0dfea7 a40139f
+Author: Noble Kalish <noblekalish1220@gmail.com>
+Date:   Sun Oct 4 14:25:16 2020 -0400
+
+    Merge pull request #1 from CS509-Euterpe/awsTest
+    
+    Feat (SnippetSystem) Add support for AWS Amplify
+
+commit a40139fbffa6b094ebbe3f407a30d3e8cea9f40b
+Author: Noble Kalish <NobleKalish>
+Date:   Sat Oct 3 23:57:12 2020 -0400
+
+    test
+
+commit e8fbaa35fff47826e742e396dc3f2dc99d4689d1
+Author: Noble Kalish <NobleKalish>
+Date:   Sat Oct 3 23:10:13 2020 -0400
+
+    aws test
+
+commit 61f0ebb1ce615c2568ba819d2ac3fb015ba9b0a3
+Author: Noble Kalish <NobleKalish>
+Date:   Sat Oct 3 23:09:08 2020 -0400
+
+    aws test
+
+commit e0dfea7aceaf0892822bcbb9e91fd96d79dce5cd
+Author: S. Kolvek <stephen.kolvek@gmail.com>
+Date:   Tue Sep 29 23:51:26 2020 -0400
+
+    Initial angular template created. components also generated
